@@ -1,5 +1,5 @@
-import styled from "styled-components";
-import Link from "next/link";
+import styled from "styled-components"
+import Link from "next/link"
 
 const Navbar = styled.nav`
   position: absolute;
