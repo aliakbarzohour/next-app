@@ -1,12 +1,10 @@
-import Head from 'next/head'
-import styled from 'styled-components'
+import Head from "next/head"
 
-
-export default function Home() {
+export default function about() {
   return (
     <>
-      <Head>
-        <title>Next - Home</title>
+        <Head>
+        <title>Next - Contact</title>
         <meta name="description" content="I Maked this next.js App For showing my next.js Skill" />
         <meta name="viewport" content="width=device-width, initial-scale" />
         <meta name="keywords" content="react,html,css,next,nextjs,"/>
@@ -15,7 +13,7 @@ export default function Home() {
 
       <main>
         <h2>
-          Home Page
+        Contact Page
         </h2>
       </main>
     </>
