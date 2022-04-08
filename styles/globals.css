@@ -1,5 +1,13 @@
+/* ======================================================== */
+
+
+/* Google Fonts */
+
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* ======================================================== */
+
 html,
 body {
     padding: 0;
@@ -18,8 +26,8 @@ body {
 h2 {
     font-family: 'Anton', sans-serif;
     text-align: center;
-    color: #1c3645;
-    text-shadow: 3px 7px 16px #8ec9f3;
+    color: #0a1319;
+    text-shadow: 3px 7px 16px #00ffae67;
 }
 
 a {

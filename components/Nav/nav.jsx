@@ -8,7 +8,7 @@ const Navbar = styled.nav`
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #061729;
+  background-color: #000;
   color: #fff;
   width: 100%;
   padding: 5px 20px;
@@ -17,7 +17,9 @@ const Navbar = styled.nav`
 export default function nav() {
   return (
     <Navbar>
-      <Link href="/">Nxt</Link>
+      <Link href="/">      
+        NEXT
+      </Link>
       <ul>
         <li>
           <Link href="/">Home</Link>

@@ -1,11 +1,23 @@
-import Nav from "./Nav/nav"
-import Footer from "./Footer/footer"
+// ==================================================
 
-export default function Home({children}) {
+// Hello friends .
+
+// In this section, I apply general changes in terms
+// of style and component and inject it in the
+// _app.js section.
+
+// ==================================================
+
+import Head from "next/head";
+
+export default function Layout({ children }) {
   return (
     <>
-    <Nav />
-    {children}
+      {/* SEO meta TAG's */}
+      <Head>
+        <meta name="viewport" content="width=device-width, initial-scale" />
+      </Head>
+      {children}
     </>
-  )
+  );
 }
