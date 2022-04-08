@@ -15,7 +15,7 @@ export default function about() {
       </Head>
 
       <main>
-        <h2>About page</h2>
+        <h2>About Page</h2>
       </main>
     </>
   );
